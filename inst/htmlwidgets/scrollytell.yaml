@@ -11,3 +11,8 @@ dependencies:
       - graph-scroll.css
     script:
       - graph-scroll.js
+  - name: sticky-fill
+    version: 2.1.0
+    src: htmlwidgets/lib/sticky-fill-2.1.0
+    script:
+      - stickyfill.min.js

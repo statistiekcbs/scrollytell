@@ -1,7 +1,7 @@
 Package: scrollytell
 Type: Package
 Title: Scrollytelling for RMarkdown and Shiny
-Version: 0.0.1
+Version: 0.1.0
 Authors@R: c( person("Pearce", "Adam", role=c("aut"), comment="Original javascript author of graph-scroll.js")
             , person("Roelof Waaijman", "Waaijman", role=c("aut", "cre"), email="rwaaijman@gmail.com")
             , person("Edwin", "de Jonge", role=c("aut"), email="edwindjonge@gmail.com")
