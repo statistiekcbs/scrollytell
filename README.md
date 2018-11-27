@@ -3,6 +3,10 @@
 
 [![CRAN
 status](https://www.r-pkg.org/badges/version/scrollytell)](https://cran.r-project.org/package=scrollytell)
+[![Travis build
+status](https://travis-ci.org/statistiekcbs/scrollytell.svg?branch=master)](https://travis-ci.org/statistiekcbs/scrollytell)
+[![Build
+status](https://ci.appveyor.com/api/projects/status/hrkr0bi6y9svkcyi/branch/master?svg=true)](https://ci.appveyor.com/project/edwindj/scrollytell/branch/master)
 
 # scrollytell
 
