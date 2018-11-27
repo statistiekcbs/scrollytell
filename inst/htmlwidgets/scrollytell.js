@@ -28,7 +28,7 @@ HTMLWidgets.widget({
       console.log("container_id:", container_id);
       container = d3.select(id);
       graph = container.select(".scrolly-graph");
-      Stickyfill.add(graph);
+      Stickyfill.add(graph.node());
 
       sections = container.selectAll(".scrolly-section");
 
