@@ -1,0 +1,33 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+[![CRAN status](https://www.r-pkg.org/badges/version/scrollytell)](https://cran.r-project.org/package=scrollytell)
+
+# scrollytell
+
+scrollytell is used to generate scrolly tell presentations in R shiny.
+
+## Installation
+
+A development version of scrolly tell can be installed from github:
+
+``` r
+devtools::install_github("edwindj/scrollytell")
+```
+
+## Example
+
+```{r example, code = readLines("test/shiny/app.R"), eval= FALSE}
+```
+

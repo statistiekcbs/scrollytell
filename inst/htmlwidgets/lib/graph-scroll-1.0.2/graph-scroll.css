@@ -1,0 +1,29 @@
+.scrolly-container{
+  position: relative;
+}
+
+.scrolly-graph {
+  margin-left: 40px;
+  width: 60%;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0px;
+  float: right;
+}
+
+.scrolly-sections {
+  width: 40%;
+}
+
+.scrolly-section {
+  opacity: 0.2;
+  margin-bottom: 200px;
+}
+
+.scrolly-sections .scrolly-section:last-child {
+  margin-bottom: 60vh;
+}
+
+.graph-scroll-active {
+  opacity: 1;
+}
