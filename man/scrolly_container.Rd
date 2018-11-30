@@ -4,7 +4,7 @@
 \alias{scrolly_container}
 \title{Container for scrollytelling}
 \usage{
-scrolly_container(outputId, ..., width = "100\%", height = "400px")
+scrolly_container(outputId, ..., width = "100\%", height = NULL)
 }
 \description{
 Container for scrollytelling
