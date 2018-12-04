@@ -29,6 +29,7 @@ HTMLWidgets.widget({
       container = d3.select(id);
       graph = container.select(".scrolly-graph");
       Stickyfill.add(graph.node());
+      Stickyfill.forceSticky(); // seems to solve problem in Shiny Bootstrap
 
       sections = container.selectAll(".scrolly-section");
 

@@ -16,8 +16,12 @@ ui <- fluidPage(
 
     # Application title
     titlePanel("Scrolly Telling"),
-
-    scrolly_container("scr"
+    sidebarLayout( sidebarPanel("Hi"),
+    tabsetPanel(id="tab",
+      tabPanel("bla",
+            fluidRow(h2("Hi")),
+            fluidRow(
+        scrolly_container("scr"
              , scrolly_graph( textOutput("section"),
                               plotOutput("distPlot")
 
@@ -35,6 +39,9 @@ ui <- fluidPage(
                 scrolly_section(id = "purple","Paars"),
                 scrolly_section(id = "orange","Oranje boven!")
              )
+        )
+            ))
+      )
     ),
     div("Footer")
 )
