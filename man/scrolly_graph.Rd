@@ -6,6 +6,15 @@
 \usage{
 scrolly_graph(..., width = "60\%", class = "scrolly-graph")
 }
+\arguments{
+\item{...}{elements that will be part of the sticky graph}
+
+\item{width}{Width of the graph in the `scrolly_container`}
+
+\item{class}{The css class of the container element (do not remove)}
+}
 \description{
-Creates a part of a graph that will stay in screen, until the end of the container
+`scrolly_graph` should be used within a `scrolly_container`
+This will be the "sticky" part that remains in view until the user scrolls beyond the end of
+the container
 }

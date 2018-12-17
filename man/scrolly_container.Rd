@@ -7,5 +7,5 @@
 scrolly_container(outputId, ..., width = "100\%", height = NULL)
 }
 \description{
-Container for scrollytelling
+Container element that contains a `scroll_graph` and
 }

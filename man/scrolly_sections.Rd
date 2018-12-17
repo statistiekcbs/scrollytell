@@ -6,6 +6,14 @@
 \usage{
 scrolly_sections(..., width = "40\%", class = "scrolly-sections")
 }
+\arguments{
+\item{...}{section elements}
+
+\item{width}{Width of the non-sticky part}
+
+\item{class}{css class used}
+}
 \description{
-Creates a part of a graph that will stay in screen, until the end of the container
+The non-sticky part of a `scrolly_container`.
+Contains the text `section`s that will scroll when a user scrolls the `scrolly_container`.
 }

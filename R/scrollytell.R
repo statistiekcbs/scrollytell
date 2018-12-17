@@ -19,6 +19,7 @@ scrollytell <- function(container_id = NULL, width = NULL, height = 0){
 
 #' Container for scrollytelling
 #'
+#' Container element that contains a `scroll_graph` and
 #' @export
 scrolly_container <- function(outputId, ..., width = "100%", height=NULL) {
   # this is a special widget: it does not use render functions, but functions as a container
